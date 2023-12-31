@@ -1,4 +1,4 @@
-# django-scaffold
+# py-basic-scaffold
 
 The objective of this project is to provide a quick basic setup for a python project. `git clone` and make it yours!
 
