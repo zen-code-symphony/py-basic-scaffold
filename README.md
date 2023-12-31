@@ -28,11 +28,11 @@ git clone git@github.com:zen-code-symphony/py-basic-scaffold.git && cd py-basic-
 ```
 2. Create virtual environment, activate it, install dependencies, and setup pre-commit hooks.
 ```sh
-make init
+make init && source venv/bin/activate
 ```
 3. Check available `make` targets
 ```sh
-make init
+make
 ```
 
 ## Configure VS Code
