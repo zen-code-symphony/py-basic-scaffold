@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 VENV_DIR="venv"
 

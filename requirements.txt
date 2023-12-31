@@ -32,8 +32,12 @@ isort==5.13.2
     # via -r requirements.in
 mccabe==0.7.0
     # via flake8
+mypy==1.8.0
+    # via -r requirements.in
 mypy-extensions==1.0.0
-    # via black
+    # via
+    #   black
+    #   mypy
 nodeenv==1.8.0
     # via pre-commit
 packaging==23.2
@@ -67,6 +71,8 @@ pytest-cov==4.1.0
     # via -r requirements.in
 pyyaml==6.0.1
     # via pre-commit
+typing-extensions==4.9.0
+    # via mypy
 virtualenv==20.25.0
     # via pre-commit
 wheel==0.42.0
