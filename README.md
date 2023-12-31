@@ -20,19 +20,18 @@ The objective of this project is to provide a quick basic setup for a python pro
 
 ## Get up and running
 
-Follow the below steps to get up and running. **NOTE**: It assumes that you have installed Python and configured git. If you are using pyenv, `.python-version` file will be used.
+Run the below command to create a project based on this basic scaffold. **NOTE**: It assumes that you have installed Python and configured git. If you are using pyenv, `.python-version` file will be used.
 
-1. Clone the repository.
+**Option 1**: Create new project from Linux or macOS command shell and stay in the shell:
 ```sh
-git clone git@github.com:zen-code-symphony/py-basic-scaffold.git && cd py-basic-scaffold
+# Replace "my_project" with your own project name.
+curl -sSL https://raw.githubusercontent.com/zen-code-symphony/py-basic-scaffold/main/create-project.sh | bash -s my_project && cd my_project && source venv/bin/activate
 ```
-2. Create virtual environment, activate it, install dependencies, and setup pre-commit hooks.
+
+**Option 2**: Create new project from Linux or macOS shell and open VS Code editor:
 ```sh
-make init && source venv/bin/activate
-```
-3. Check available `make` targets
-```sh
-make
+# Replace "my_project" with your own project name.
+curl -sSL https://raw.githubusercontent.com/zen-code-symphony/py-basic-scaffold/main/create-project.sh | bash -s my_project && cd my_project && code .
 ```
 
 ## Configure VS Code
