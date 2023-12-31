@@ -1,0 +1,17 @@
+[tool.isort]
+profile = "black"
+src_paths = [ "app" ]
+
+[tool.mypy]
+plugins = ["mypy_django_plugin.main"]
+
+[tool.pytest.ini_options]
+python_files = ["tests.py", "test_*.py", "*_tests.py"]
+testpaths = [
+    "tests",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    'if __name__ == "__main__":'
+]
