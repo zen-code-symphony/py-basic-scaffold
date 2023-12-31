@@ -1,13 +1,11 @@
 [tool.isort]
 profile = "black"
-src_paths = [ "app" ]
-
-[tool.mypy]
-plugins = ["mypy_django_plugin.main"]
+src_paths = [ "src" ]
 
 [tool.pytest.ini_options]
 python_files = ["tests.py", "test_*.py", "*_tests.py"]
 testpaths = [
+    "src",
     "tests",
 ]
 
