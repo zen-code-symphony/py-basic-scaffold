@@ -3,10 +3,9 @@ profile = "black"
 src_paths = [ "src" ]
 
 [tool.pytest.ini_options]
-python_files = ["tests.py", "test_*.py", "*_tests.py"]
+python_files = ["tests.py", "*_test.py"]
 testpaths = [
     "src",
-    "tests",
 ]
 
 [tool.coverage.report]
